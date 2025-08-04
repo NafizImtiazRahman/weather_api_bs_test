@@ -1,0 +1,8 @@
+version: '3.8'
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - WEATHER_API_KEY=e20d39744ca5f3ea3d3daeb7d6b58470
